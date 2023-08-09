@@ -1,0 +1,48 @@
+.a {
+    display: flex;
+    flex-wrap: wrap;
+}
+.all {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wow { 
+    display: flex;
+ margin-top: 60px;
+ flex-wrap: wrap;
+}
+.link {
+    text-decoration: none;
+    margin: 40px;
+    
+}
+.x {
+    text-decoration: underline;
+}
+.all5 {
+    width: 50%;
+}
+.all2 {
+    width: 50%;
+}
+.text {
+    width: 200px;
+    margin: 20px;
+}
+.tit {
+    width: 600px;
+}
+@media(max-width:1000px){
+    .all2{
+        width: 100%;
+    }
+    .all5 {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px){
+    .al {
+        width: 100%;
+    }
+}
